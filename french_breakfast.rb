@@ -18,10 +18,9 @@ end
 
 def say_custom(tag, text); say "\033[1m\033[36m" + tag.to_s.rjust(10) + "\033[0m" + "  #{text}" end
 
-# All our gems
+# Mmmmmmmmm
 # ------------------------------------------------------------
 gem 'thin', :group => 'development'
-gem 'railroady', :group => 'development'
 
 # dry the controller
 gem 'responders'
@@ -31,6 +30,9 @@ gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 gem 'nested_form', :git => 'https://github.com/ryanb/nested_form.git'
 gem 'country-select'
 
+# interface
+gem 'sugar'
+gem 'slim-rails'
 gem 'bourbon'
 gem 'bootstrap-sass'
 gem 'bootswatch-rails'
@@ -41,8 +43,6 @@ bootswatch_question = 'Select a bootswatch theme - http://bootswatch.com/#galler
 bootswatch_themes = %w(amelia cerulean cyborg journal readable simplex slate spacelab spruce superhero united)
 bootswatch_themes.collect! { |name| [name, name] }
 bootswatch_choice = multiple_choice(bootswatch_question, bootswatch_themes)
-
-gem 'slim-rails'
 
 # Bundle and Configure
 # ------------------------------------------------------------
