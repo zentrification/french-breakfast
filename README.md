@@ -1,6 +1,6 @@
 # French Breakfast
 
-An opinionated application template for rails 3.2
+An opinionated application template for rails 3.2 (I love the french, seriously)
 
 ### Coffee + Skim
 
