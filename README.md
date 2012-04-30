@@ -8,15 +8,15 @@ An opinionated application template for rails 3.2 (I love the french, seriously)
 
 ### Sugar
 
-[Sugar.js](http://sugarjs.com/)
+[Sugar.js](http://sugarjs.com/), A Javascript library for working with native objects.
 
 [Ruby equivelents list](http://sugarjs.com/libs/Ruby)
 
-### Slim Cigarette
+### Slim (Cigarette)
 
 [Slim](http://slim-lang.com/), a light weight templating engine
 
-Support formatters: builder, coffeescript, css, erb, haml, sass, scss, less, ruby, javascript, liquid, nokogiri, markdown, markaby, rdoc, radius, textile
+Support formatters: builder, coffeescript, css, erb, haml, javascript, less, liquid, markdown, markaby, nokogiri, radius, rdoc, ruby, sass, scss, textile
 
 ### Toast
 
